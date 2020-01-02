@@ -1,0 +1,2 @@
+# algorithmQ
+personal algorithm
