@@ -4,7 +4,14 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Stack;
-
+/**
+ * Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+ *
+ * An input string is valid if:
+ *          1.Open brackets must be closed by the same type of brackets.
+ *          2.Open brackets must be closed in the correct order.
+ * Note that an empty string is also considered valid.
+ * */
 public class ValidParentheses {
     private HashMap<Character, Character> mappings;
 
@@ -20,6 +27,13 @@ public class ValidParentheses {
         }
         if (stack.empty()) return true;
         return false;
+    }
+
+    private void initMap() {
+        mappings = new HashMap<>();
+        mappings.put(')', '(');
+        mappings.put('}', '{');
+        mappings.put(']', '[');
     }
 
     public boolean isValidParenthese1(String s) {
@@ -51,16 +65,12 @@ public class ValidParentheses {
     }
 
     public boolean isValidParenthese3(String s) {
-        // 空字符串
         if (s.length() == 0)
             return true;
-        // 排除奇数长度(位运算)
         if ((s.length() & 1) == 1)
             return false;
 
-        // 栈元素个数
         int index = 0;
-        // 栈
         char[] stack = new char[s.length()];
 
         for (int i = 0; i < s.length(); i++) {
@@ -68,14 +78,11 @@ public class ValidParentheses {
                 case '(':
                 case '[':
                 case '{':
-                    // 进栈
                     stack[index++] = s.charAt(i);
                     continue;
                 case ')':
                     if (index == 0 || stack[--index] != '(')
                         return false;
-                    // stack[--index] == '(' ，才会contniue
-                    // --index：相当于满足的元素出栈
                     continue;
                 case ']':
                     if (index == 0 || stack[--index] != '[')
@@ -84,7 +91,6 @@ public class ValidParentheses {
                 case '}':
                     if (index == 0 || stack[--index] != '{')
                         return false;
-                    continue;
             }
         }
         return index == 0;
@@ -121,7 +127,6 @@ public class ValidParentheses {
     }
 
     public static boolean isValidParenthese5(String s) {
-        // 判断符号的长度是否为奇数，奇数直接返回false
         if ((s.length() & 1) == 1) {
             return false;
         }
@@ -131,7 +136,6 @@ public class ValidParentheses {
             if (stack.isEmpty()) {
                 stack.push(s.charAt(i));
             } else {
-                // 只需处理右括号，其余情况压入栈即可
                 switch (s.charAt(i)) {
                     case ')': {
                         if (stack.pop() != '(') {
@@ -156,31 +160,28 @@ public class ValidParentheses {
                 }
             }
         }
-        // 如果栈不为空，说明括号有重复单边括号，返回false
         if (!stack.isEmpty())
             return false;
         return true;
     }
 
     public static boolean isValidParenthese6(String s) {
-        if (s.length() == 0) return true;  // 若为空字符串, 直接返回true
+        if (s.length() == 0) return true;
         List<Character> charStack = new ArrayList<>();
         for (int i = 0; i < s.length(); i++) {
-            // 一直遍历, 遇到左边括号就进栈
             if (s.charAt(i) == 40 || s.charAt(i) == 91 || s.charAt(i) == 123) {
                 charStack.add(s.charAt(i));
             }
-            // 遇到右边符号
             if (s.charAt(i) == 41 || s.charAt(i) == 93 || s.charAt(i) == 125) {
-                if (charStack.size() == 0) return false;  // 开头便是右括号情况, 直接返回false
-                char a = charStack.get(charStack.size() - 1);  // 得到栈顶值
-                if (s.charAt(i) - a != 1 && s.charAt(i) - a != 2) {  // 使用当前右扩展与栈顶左括号进行相减判断
+                if (charStack.size() == 0) return false;
+                char a = charStack.get(charStack.size() - 1);
+                if (s.charAt(i) - a != 1 && s.charAt(i) - a != 2) {
                     return false;
                 }
-                charStack.remove(charStack.size() - 1);  // 删除栈顶元素值
+                charStack.remove(charStack.size() - 1);
             }
         }
-        if (charStack.size() != 0) return false; // 堆栈中任由值, 则返回false
+        if (charStack.size() != 0) return false;
         return true;
     }
 
@@ -188,7 +189,7 @@ public class ValidParentheses {
         if (s.length() % 2 != 0)
             return false;
         char[] inputStrChars = s.toCharArray();
-        Stack<Character> stack = new Stack<Character>();
+        Stack<Character> stack = new Stack<>();
         for (char foo : inputStrChars) {
             if (foo == '(' || foo == '[' || foo == '{') {
                 stack.add(foo);
@@ -224,12 +225,5 @@ public class ValidParentheses {
             }
         }
         return index == 0;
-    }
-
-    private void initMap() {
-        mappings = new HashMap<>();
-        mappings.put(')', '(');
-        mappings.put('}', '{');
-        mappings.put(']', '[');
     }
 }

@@ -16,4 +16,14 @@ public class Palindrome {
         }
         return true;
     }
+
+    public boolean isPalindrome1(int num){
+        if(num<0||num%10==0&&num!=0) return false;
+        int revertNum = 0;
+        while(num>revertNum){
+            revertNum = num%10 + revertNum*10;
+            num/=10;
+        }
+        return revertNum==num||revertNum/10==num;
+    }
 }
