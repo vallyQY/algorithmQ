@@ -12,6 +12,8 @@ public class TestDemo {
         //testStringLengthCompare();
         //testPalindrome();
         testValidParentheses();
+        String s = "a加b等于c，如果a等1、b等于2，那么c等3";
+        System.out.println(s.substring(0,6));
     }
 
     private static void testStringLengthCompare(){

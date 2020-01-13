@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61794f9-490c-4071-ac1c-371097272104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/MaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/StringTruncation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestMain/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithmTestMain/TestDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,6 +214,9 @@
       <workItem from="1577954249548" duration="2758000" />
       <workItem from="1578011909507" duration="8405000" />
       <workItem from="1578031434488" duration="6173000" />
+      <workItem from="1578045128479" duration="61000" />
+      <workItem from="1578444627564" duration="1002000" />
+      <workItem from="1578885593844" duration="1690000" />
     </task>
     <task id="LOCAL-00001" summary="genericTest">
       <created>1577956835960</created>
@@ -227,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578036776135</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add new task(MaxSubArray)">
+      <created>1578045172702</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578045172702</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +261,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="genericTest" />
     <MESSAGE value="自定义命名规范" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义命名规范" />
+    <MESSAGE value="add new task(MaxSubArray)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task(MaxSubArray)" />
   </component>
 </project>
