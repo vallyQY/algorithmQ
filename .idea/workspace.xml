@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61794f9-490c-4071-ac1c-371097272104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/StringTruncation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qy/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/algorithmTestMain/OptionSpecial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/StringLengthCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/StringLengthCompare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestMain/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/algorithmTestMain/TestDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,6 +63,9 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1VpcbuukwgFaSfDWgjX6bzAbMtW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -98,7 +103,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TestDemo">
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestDemo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithmTestMain.TestDemo" />
       <module name="algorithmQ.test" />
       <extension name="coverage">
@@ -111,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testAppHasAGreeting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OptionSpecial.testCreate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;algorithmQ.AppTest.testAppHasAGreeting&quot;" />
+        <option name="scriptParameters" value="--tests &quot;algorithmTestMain.OptionSpecial.testCreate&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -191,11 +196,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OptionSpecial.testCreate" />
         <item itemvalue="Gradle.algorithmQ [build]" />
         <item itemvalue="Gradle.algorithmQ [clean]" />
         <item itemvalue="Gradle.TestDemo.testValidParentheses" />
-        <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Gradle.AppTest.testAppHasAGreeting" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +220,14 @@
       <workItem from="1578031434488" duration="6173000" />
       <workItem from="1578045128479" duration="61000" />
       <workItem from="1578444627564" duration="1002000" />
-      <workItem from="1578885593844" duration="1690000" />
+      <workItem from="1578885593844" duration="1739000" />
+      <workItem from="1578897788894" duration="221000" />
+      <workItem from="1578898040761" duration="844000" />
+      <workItem from="1579226798203" duration="3391000" />
+      <workItem from="1579577654832" duration="1643000" />
+      <workItem from="1579654016899" duration="1384000" />
+      <workItem from="1579676735339" duration="1906000" />
+      <workItem from="1579678675318" duration="2122000" />
     </task>
     <task id="LOCAL-00001" summary="genericTest">
       <created>1577956835960</created>
@@ -239,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578045172702</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add new task(StringTruncation)">
+      <created>1578887317707</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578887317707</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +280,7 @@
     <MESSAGE value="genericTest" />
     <MESSAGE value="自定义命名规范" />
     <MESSAGE value="add new task(MaxSubArray)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new task(MaxSubArray)" />
+    <MESSAGE value="add new task(StringTruncation)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task(StringTruncation)" />
   </component>
 </project>
