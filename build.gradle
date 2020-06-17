@@ -20,10 +20,16 @@ repositories {
     jcenter()
 }
 
+ext {
+    guavaVersion = "29.0-jre"
+    orikaVersion = "1.5.4"
+}
+
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
     implementation 'com.google.guava:guava:27.0.1-jre'
-
+    compile "ma.glasnost.orika:orika-core:$orikaVersion"
+    compile "com.google.guava:guava:$guavaVersion"
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
 }
