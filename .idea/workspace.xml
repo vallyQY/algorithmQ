@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d61794f9-490c-4071-ac1c-371097272104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo01/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/algorithmQ/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/BeanMapper/LegBaseInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/BeanMapper/LegBaseInfoDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/BeanMapper/LegBaseInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/BeanMapper/LegBaseInfoEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/factory/SenderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/factory/SenderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/factory/entity/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/factory/entity/MailSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/factory/entity/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/factory/entity/Sender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/factory/entity/SmsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/factory/entity/SmsSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestFactory/TestFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/TestFactory/TestFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmQ/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/com/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/LongestPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/LongestPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/MaxSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/RomanToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/RomanToInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/StringLengthCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/StringLengthCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/StringTruncation.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/StringTruncation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestMain/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestMain/TestDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -261,7 +240,7 @@
       <workItem from="1592373510375" duration="6633000" />
       <workItem from="1592387559115" duration="25000" />
       <workItem from="1592449015405" duration="33000" />
-      <workItem from="1592465671467" duration="1991000" />
+      <workItem from="1592465671467" duration="2375000" />
     </task>
     <task id="LOCAL-00001" summary="genericTest">
       <created>1577956835960</created>
@@ -305,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592374081162</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1.修改依赖">
+      <created>1592467701112</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592467701112</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +318,7 @@
     <MESSAGE value="add new task(StringTruncation)" />
     <MESSAGE value="modify task" />
     <MESSAGE value="1.外观模式demo 2.orika练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.外观模式demo 2.orika练习" />
+    <MESSAGE value="1.修改依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.修改依赖" />
   </component>
 </project>
