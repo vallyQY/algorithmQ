@@ -1,4 +1,4 @@
-### algorithmQ
+### com
 ####一些标准
 >题目来源：leetcode
 >>题解按照自然数进行编号，如：isPalindrome0,1,2...   

@@ -1,8 +1,8 @@
-package com.qy.factory;
+package com.xzkingdee.qy.factory;
 
-import com.qy.factory.entity.MailSender;
-import com.qy.factory.entity.Sender;
-import com.qy.factory.entity.SmsSender;
+import com.xzkingdee.qy.factory.entity.MailSender;
+import com.xzkingdee.qy.factory.entity.SmsSender;
+import com.xzkingdee.qy.factory.entity.Sender;
 
 /**
  * 外观模式(Facade)的demo

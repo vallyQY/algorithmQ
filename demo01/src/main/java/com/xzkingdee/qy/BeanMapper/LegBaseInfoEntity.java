@@ -1,4 +1,4 @@
-package com.qy.BeanMapper;
+package com.xzkingdee.qy.BeanMapper;
 
 import lombok.Data;
 

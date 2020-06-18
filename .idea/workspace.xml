@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d61794f9-490c-4071-ac1c-371097272104" name="Default Changelist" comment="1.外观模式demo 2.orika练习">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qy/BeanMapper/LegBaseInfoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qy/BeanMapper/LegBaseInfoEntity.java" afterDir="false" />
+    <list default="true" id="d61794f9-490c-4071-ac1c-371097272104" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo01/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithmQ/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/BeanMapper/LegBaseInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/BeanMapper/LegBaseInfoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/BeanMapper/LegBaseInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/BeanMapper/LegBaseInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/factory/SenderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/factory/SenderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/factory/entity/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/factory/entity/MailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/factory/entity/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/factory/entity/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/factory/entity/SmsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/xzkingdee/qy/factory/entity/SmsSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestFactory/TestFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/TestFactory/TestFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmQ/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/com/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/LongestPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/LongestPrefix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/MaxSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/RomanToInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/RomanToInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/StringLengthCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/StringLengthCompare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/StringTruncation.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/StringTruncation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestDemo/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestDemo/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestMain/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo01/src/test/java/algorithmTestMain/TestDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,23 +43,15 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/demo01">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="algorithmQ" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="algorithmQ" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="algorithmQ" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -77,18 +87,22 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\algorithmQ\src\test\java\algorithmTestDemo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.qy.BeanMapper" />
       <recent name="algorithmTestDemo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\Desktop\algorithmQ\src\test\java\algorithmTestDemo" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\algorithmQ\demo01" />
+      <recent name="E:\algorithmQ" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -104,35 +118,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TestFactory">
-    <configuration name="MemDisk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MXBean.MemDisk" />
-      <module name="algorithmQ.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MXBean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithmTestMain.TestDemo" />
-      <module name="algorithmQ.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithmTestMain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestFactory.TestFactory" />
-      <module name="algorithmQ.test" />
+      <module name="algorithmQ.demo01.test" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestFactory.*" />
@@ -143,18 +131,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMXBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MXBean.TestMXBean" />
-      <module name="algorithmQ.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="MXBean.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="AppTest.testAppHasAGreeting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;algorithmQ.AppTest.testAppHasAGreeting&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":demo01:cleanTest" />
+            <option value=":demo01:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
     </configuration>
     <configuration name="OptionSpecial.testCreate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -176,10 +171,29 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="algorithmQ [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="algorithmQ [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="algorithmQ:demo01 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demo01" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -195,13 +209,20 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.OptionSpecial.testCreate" />
+      <item itemvalue="Gradle.AppTest.testAppHasAGreeting" />
+      <item itemvalue="Application.TestFactory" />
+      <item itemvalue="Gradle.algorithmQ:demo01 [build]" />
+      <item itemvalue="Gradle.algorithmQ [dependencies]" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.algorithmQ [dependencies]" />
+        <item itemvalue="Gradle.algorithmQ:demo01 [build]" />
         <item itemvalue="Application.TestFactory" />
-        <item itemvalue="Application.MemDisk" />
-        <item itemvalue="Application.TestMXBean" />
+        <item itemvalue="Gradle.AppTest.testAppHasAGreeting" />
         <item itemvalue="Gradle.OptionSpecial.testCreate" />
-        <item itemvalue="Gradle.algorithmQ [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -240,6 +261,7 @@
       <workItem from="1592373510375" duration="6633000" />
       <workItem from="1592387559115" duration="25000" />
       <workItem from="1592449015405" duration="33000" />
+      <workItem from="1592465671467" duration="1991000" />
     </task>
     <task id="LOCAL-00001" summary="genericTest">
       <created>1577956835960</created>
