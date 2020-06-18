@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d61794f9-490c-4071-ac1c-371097272104" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qy/factory/SenderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qy/factory/entity/MailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qy/factory/entity/Sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/qy/factory/entity/SmsSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestFactory/TestFactory.java" afterDir="false" />
+    <list default="true" id="d61794f9-490c-4071-ac1c-371097272104" name="Default Changelist" comment="1.外观模式demo 2.orika练习">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qy/BeanMapper/LegBaseInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qy/BeanMapper/LegBaseInfoEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/qy/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/algorithmTestMain/OptionSpecial.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +66,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -82,13 +77,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qy.BeanMapper" />
       <recent name="algorithmTestDemo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -241,7 +237,9 @@
       <workItem from="1588724645764" duration="202000" />
       <workItem from="1588724997873" duration="9000" />
       <workItem from="1591664475509" duration="1193000" />
-      <workItem from="1592373510375" duration="518000" />
+      <workItem from="1592373510375" duration="6633000" />
+      <workItem from="1592387559115" duration="25000" />
+      <workItem from="1592449015405" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="genericTest">
       <created>1577956835960</created>
@@ -278,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579680957449</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.外观模式demo 2.orika练习">
+      <created>1592374081162</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592374081162</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,11 +303,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="genericTest" />
     <MESSAGE value="自定义命名规范" />
     <MESSAGE value="add new task(MaxSubArray)" />
     <MESSAGE value="add new task(StringTruncation)" />
     <MESSAGE value="modify task" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify task" />
+    <MESSAGE value="1.外观模式demo 2.orika练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.外观模式demo 2.orika练习" />
   </component>
 </project>
