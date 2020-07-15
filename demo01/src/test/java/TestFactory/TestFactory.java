@@ -1,7 +1,7 @@
 package TestFactory;
 
 import com.xzkingdee.qy.factory.SenderFactory;
-import com.xzkingdee.qy.factory.entity.Sender;
+import com.xzkingdee.qy.factory.service.Sender;
 
 public class TestFactory {
     public static void main(String[] args){

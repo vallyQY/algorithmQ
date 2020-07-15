@@ -1,4 +1,4 @@
-package com.xzkingdee.qy.factory.entity;
+package com.xzkingdee.qy.factory.service;
 
 public interface Sender {
     void send();
