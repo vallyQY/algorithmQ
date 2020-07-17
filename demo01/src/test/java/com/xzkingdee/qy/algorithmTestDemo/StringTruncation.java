@@ -1,4 +1,4 @@
-package algorithmTestDemo;
+package com.xzkingdee.qy.algorithmTestDemo;
 /**
  * String truncated by byte
  * Java intercepts strings with Chinese characters. Chinese characters cannot be intercepted into half.At present,sunstring(int beginIndex,int endIndex)

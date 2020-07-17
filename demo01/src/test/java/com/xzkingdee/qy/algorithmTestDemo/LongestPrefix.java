@@ -1,4 +1,4 @@
-package algorithmTestDemo;
+package com.xzkingdee.qy.algorithmTestDemo;
 
 public class LongestPrefix {
     public String findLongestPrefix0(String[] strs){

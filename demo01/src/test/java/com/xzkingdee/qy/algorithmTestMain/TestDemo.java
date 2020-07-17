@@ -1,9 +1,9 @@
-package algorithmTestMain;
+package com.xzkingdee.qy.algorithmTestMain;
 
-import algorithmTestDemo.MaxSubArray;
-import algorithmTestDemo.Palindrome;
-import algorithmTestDemo.StringLengthCompare;
-import algorithmTestDemo.ValidParentheses;
+import com.xzkingdee.qy.algorithmTestDemo.MaxSubArray;
+import com.xzkingdee.qy.algorithmTestDemo.Palindrome;
+import com.xzkingdee.qy.algorithmTestDemo.StringLengthCompare;
+import com.xzkingdee.qy.algorithmTestDemo.ValidParentheses;
 
 import java.util.Arrays;
 

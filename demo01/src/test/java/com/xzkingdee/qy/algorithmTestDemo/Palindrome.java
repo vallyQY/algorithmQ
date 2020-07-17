@@ -1,4 +1,4 @@
-package algorithmTestDemo;
+package com.xzkingdee.qy.algorithmTestDemo;
 
 public class Palindrome {
     public boolean isPalindrome0(int num){

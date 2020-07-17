@@ -1,4 +1,4 @@
-package TestFactory;
+package com.xzkingdee.qy.TestFactory;
 
 import com.xzkingdee.qy.factory.SenderFactory;
 import com.xzkingdee.qy.factory.service.Sender;

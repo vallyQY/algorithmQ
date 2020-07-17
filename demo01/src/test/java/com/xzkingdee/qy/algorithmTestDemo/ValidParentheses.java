@@ -1,4 +1,4 @@
-package algorithmTestDemo;
+package com.xzkingdee.qy.algorithmTestDemo;
 
 import java.util.ArrayList;
 import java.util.HashMap;

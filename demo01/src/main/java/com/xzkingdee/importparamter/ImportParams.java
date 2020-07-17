@@ -28,6 +28,10 @@ public class ImportParams {
         //拼接3级字段
         splicingLevelThreeField(finalData);
         finalData.forEach(System.out::println);
+        //更新所有的routeCode
+        finalData.forEach(entity->{
+            entity.setRouteCode("clz-region-"+entity.getRouteCode());
+        });
         createCsv(finalData);
     }
 
@@ -79,7 +83,7 @@ public class ImportParams {
             sysConfTypeDto.setDelFlag("0");
             if (typeCode.endsWith("0000")) {
                 sysConfTypeDto.setTypeLevel("1");
-                sysConfTypeDto.setParentId("region");
+                sysConfTypeDto.setParentId("c0a800dc73511ae9817351708ec5000c");
                 sysConfTypeDto.setRouteCode(typeCode);
                 sysConfTypeDto.setSortNum("1");
             } else if (typeCode.startsWith("11") || typeCode.startsWith("12")
