@@ -10,4 +10,5 @@
 rootProject.name = 'algorithmQ'
 include 'demo01'
 include 'demo02'
+include 'demo3'
 
