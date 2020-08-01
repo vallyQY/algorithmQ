@@ -36,4 +36,9 @@ public class StreamLearnTest {
         StreamLearn.streamMap();
         StreamLearn.streamFlatMap();
     }
+
+    @Test
+    public void testStreamStat(){
+        StreamLearn.streamMaxMinAvg();
+    }
 }
