@@ -34,6 +34,10 @@ public class StreamLearnTest {
     @Test
     public void testStreamMap(){
         StreamLearn.streamMap();
+    }
+
+    @Test
+    public void testFlatMap(){
         StreamLearn.streamFlatMap();
     }
 

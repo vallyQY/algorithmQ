@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -90,8 +91,20 @@ public class StreamLearn {
      * flatMap的使用
      */
     public static void streamFlatMap() {
+        //降维度
         Stream<String> temp = Stream.of("hello", "world", "banana", "green");
-        temp.flatMap(str -> Stream.of(str.split(""))).forEach(System.out::println);
+        Stream<String[]> splitStream = temp.map(str -> str.split(""));
+        splitStream.flatMap(Arrays::stream).forEach(s -> System.out.print(s + "-"));
+
+        System.out.println();
+        //flatMap升维度
+        List<Integer> numbers1 = Arrays.asList(1, 2, 3);
+        List<Integer> numbers2 = Arrays.asList(3, 4);
+        List<int[]> collect = numbers1.stream().flatMap(item -> numbers2.stream().map(item2 -> new int[]{item, item2}))
+                .collect(Collectors.toList());
+        for (int[] pair : collect) {
+            System.out.println(Arrays.toString(pair));
+        }
     }
 
     public static void streamMaxMinAvg() {
