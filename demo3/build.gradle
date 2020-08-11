@@ -23,4 +23,6 @@ dependencies {
     compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jdk8', version: jacksonVersion
 
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.16.22'
+
+    compile 'cn.hutool:hutool-all:5.3.10'
 }
