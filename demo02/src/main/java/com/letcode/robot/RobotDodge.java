@@ -52,7 +52,9 @@ public class RobotDodge {
 
     private void backtracking(Robot robot, Set<String> visited, int x, int y, int arrow) {
         String path = x + "-" + y;
-        if (visited.contains(path)) return;
+        if (visited.contains(path)) {
+            return;
+        }
         visited.add(path);
         robot.clean();
 

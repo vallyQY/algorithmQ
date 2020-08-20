@@ -13,7 +13,7 @@ package com.letcode;
  * @author qy
  * @date 0720
  */
-class SearchIndex {
+public class SearchIndex {
     public static int searchInsert(int[] nums, int target) {
         int i = 0;
         for (; i < nums.length; ) {

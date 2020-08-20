@@ -28,8 +28,8 @@ public class EmperorTest {
 
     @Test
     public void testMultiply() {
-        List<String> diffContries = Lists.newArrayList("1", "2", "3");
-        diffContries.parallelStream().forEach(str -> {
+        List<String> diffCountries = Lists.newArrayList("1", "2", "3");
+        diffCountries.parallelStream().forEach(str -> {
             EmperorMulThread mulThread = EmperorMulThread.getEmperor();
             System.out.println(mulThread.hashCode());
             System.out.println("---not support multiply threads---");
