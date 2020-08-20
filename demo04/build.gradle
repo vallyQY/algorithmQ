@@ -11,6 +11,14 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    guavaVersion = "29.0-jre"
+    orikaVersion = "1.5.4"
+    jacksonVersion = '2.9.5'
+}
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "ma.glasnost.orika:orika-core:$orikaVersion"
+    compile "com.google.guava:guava:$guavaVersion"
 }
