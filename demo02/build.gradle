@@ -11,6 +11,11 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    guavaVersion = "29.0-jre"
+}
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "com.google.guava:guava:$guavaVersion"
 }

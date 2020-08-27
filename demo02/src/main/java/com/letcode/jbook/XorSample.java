@@ -1,6 +1,10 @@
 package com.letcode.jbook;
 
-import java.util.Random;
+
+import com.google.common.primitives.Ints;
+
+import java.util.List;
+import java.util.Optional;
 
 /**
  * 1-1000放在含有1001个元素的数组中，只有唯一的一个元素值重复，其它均只出现
@@ -11,17 +15,12 @@ import java.util.Random;
  * @date Created in 2020/8/26
  **/
 public class XorSample {
-    public static void main(String[] args) {
-        //TODO:数组乱序
-        System.out.println(generateArr(10).toString());
-    }
+    private static final int ARR_LENGTH = 10;
 
-    private static int[] generateArr(int num) {
-        int[] retArr = new int[num + 1];
-        Random random = new Random();
-        for (int i = retArr.length - 1; i > 0; i--) {
-            retArr[i] = i;
-        }
-        return retArr;
+    public static void method() {
+        List<Integer> retList = Ints.asList(GenerateArray.buildArray(ARR_LENGTH));
+        Optional<Integer> total = retList.stream().reduce(Integer::sum);
+        int sum = (ARR_LENGTH + 1) * ARR_LENGTH / 2;
+        total.ifPresent(integer -> System.out.println(integer - sum));
     }
 }
