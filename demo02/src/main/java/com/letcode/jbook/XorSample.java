@@ -15,12 +15,37 @@ import java.util.Optional;
  * @date Created in 2020/8/26
  **/
 public class XorSample {
-    private static final int ARR_LENGTH = 10;
+    private static final int ARR_LENGTH = 30000;
 
-    public static void method() {
-        List<Integer> retList = Ints.asList(GenerateArray.buildArray(ARR_LENGTH));
-        Optional<Integer> total = retList.stream().reduce(Integer::sum);
+    public static void mothod() {
+        List<Integer> origin = Ints.asList(GenerateArray.buildArray(ARR_LENGTH));
+        Optional<Integer> total = origin.stream().reduce(Integer::sum);
         int sum = (ARR_LENGTH + 1) * ARR_LENGTH / 2;
         total.ifPresent(integer -> System.out.println(integer - sum));
+    }
+
+    public static void main(String[] args) {
+        List<Integer> origin = Ints.asList(GenerateArray.buildArray(ARR_LENGTH));
+        long start = System.currentTimeMillis();
+        int temp = 0;
+        for (Integer value : origin) {
+            temp ^= value;
+        }
+        int tempOrigin = 0;
+        for (int i = 1; i < ARR_LENGTH + 1; i++) {
+            tempOrigin ^= i;
+        }
+        System.out.println("Repeat item:" + (temp ^ tempOrigin));
+        long end = System.currentTimeMillis();
+        System.out.println(end - start + "ms");
+
+        System.out.println("=====================");
+
+        long startTime = System.currentTimeMillis();
+        Optional<Integer> total = origin.stream().reduce(Integer::sum);
+        int sum = (ARR_LENGTH + 1) * ARR_LENGTH / 2;
+        total.ifPresent(integer -> System.out.println(integer - sum));
+        long endTime = System.currentTimeMillis();
+        System.out.println(endTime - startTime + "ms");
     }
 }
