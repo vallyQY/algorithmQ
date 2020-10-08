@@ -11,8 +11,8 @@ public class CircumferenceSample {
     private static final int NUM = 100;
 
     public static void main(String[] args) {
-        //methodQ();
-        cutMethod();
+        methodQ();
+        //cutMethod();
     }
 
     private static void methodQ() {

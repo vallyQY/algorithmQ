@@ -15,9 +15,9 @@ public class FactorialSample {
         BigDecimal sum = BigDecimal.ZERO;
         int i = 1;
         do {
-            sum = sum.add(BigDecimal.ONE.divide(factorial(i++),200,RoundingMode.HALF_UP));
+            sum = sum.add(BigDecimal.ONE.divide(factorial(i++), 200, RoundingMode.HALF_UP));
         } while (i <= 100);
-        System.out.println("1+1/2!+1/3!+...+1/20!="+sum);
+        System.out.println("1+1/2!+1/3!+...+1/20!=" + sum);
     }
 
     private static BigDecimal factorial(int i) {
